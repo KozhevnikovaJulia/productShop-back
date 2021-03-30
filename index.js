@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 7778;
+const port = process.env.PORT || 7778;
 const shopRouter = require('./shopRouter');
 const cartRouter = require('./cartRouter');
 const cors = require('cors');
