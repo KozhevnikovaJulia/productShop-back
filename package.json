@@ -6,6 +6,5 @@
     "mongoose": "^5.12.2"
   },
   "scripts": {
-    "start": "SET PORT:8888 && node index.js"
-  }
+    "start": "node index.js"}
 }
