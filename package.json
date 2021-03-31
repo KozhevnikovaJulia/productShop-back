@@ -4,8 +4,5 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.12.2"    
-  },
-  "scripts": {
-    "start":"SET PORT=8888 && node index.js"
   }
 }
